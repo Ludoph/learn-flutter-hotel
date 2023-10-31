@@ -12,7 +12,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
           color: Colors.grey[800],
           size: 20,
         ),
-        onPressed: null,
+        onPressed: () {},
       ),
       title: Text(
         'Explore',
@@ -26,7 +26,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
             color: Colors.grey[800],
             size: 20,
           ),
-          onPressed: null,
+          onPressed: () {},
         ),
         IconButton(
           icon: Icon(
@@ -34,7 +34,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
             color: Colors.grey[800],
             size: 20,
           ),
-          onPressed: null,
+          onPressed: () {},
         ),
       ],
       centerTitle: true,
